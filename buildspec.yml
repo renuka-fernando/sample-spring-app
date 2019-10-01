@@ -18,4 +18,4 @@ artifacts:
   files:
     - target/sample-spring-app-1.0-SNAPSHOT.jar
     - appspec.yml
-    - scripts/run-application.sh
+    - scripts/*

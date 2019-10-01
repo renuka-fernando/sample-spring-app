@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+cd /tmp
+echo 'Stopping server...'
+app_pid=`cat application_pid`
+kill "$app_pid"
+echo 'Server successfully stopped.'
