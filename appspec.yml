@@ -2,5 +2,5 @@ version: 0.0
 os: linux
 hooks:
   ApplicationStart:
-    - location: runapp.sh
-      runas: ec2-user
+    - location: scripts/run-application.sh
+      runas: root
