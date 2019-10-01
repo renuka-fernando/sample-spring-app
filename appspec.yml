@@ -1,5 +1,8 @@
 version: 0.0
 os: linux
+files:
+  - source: target/sample-spring-app-1.0-SNAPSHOT.jar
+    destination: /tmp
 hooks:
   ApplicationStart:
     - location: scripts/run-application.sh
