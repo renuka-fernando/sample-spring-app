@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-cd /tmp
-echo 'Starting server...'
-java -jar sample-spring-app-1.0-SNAPSHOT.jar > application-console.out 2>&1 &
-$! > application_pid
-echo 'Server successfully started.'

@@ -13,6 +13,6 @@ public class SampleApplicationTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        assertTrue("This should be true",true);
     }
 }

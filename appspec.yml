@@ -4,9 +4,9 @@ files:
   - source: target/sample-spring-app-1.0-SNAPSHOT.jar
     destination: /tmp
 hooks:
-  BeforeInstall:
-    - location: scripts/run_server
+  ApplicationStart:
+    - location: scripts/run_application.sh
       runas: root
   ApplicationStop:
-    - location: scripts/stop_server
+    - location: scripts/stop_server.sh
       runas: root
