@@ -10,7 +10,7 @@ public class HelloController {
 
     @RequestMapping("/{name}")
     public String hello(@PathVariable String name) {
-        return String.format("Hello %s!", name);
+        return String.format("Hello %s!!!...!!!", name);
     }
 
 }
